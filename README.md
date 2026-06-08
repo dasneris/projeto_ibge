@@ -61,10 +61,10 @@ dado já interpretado:
 
 | Desafio | Técnica exigida | Coluna automática |
 |---|---|---|
-| 1 — Densidade | aritmética entre colunas + ordenação | `classificacao` (Alta/Média/Baixa densidade) |
-| 2 — Regiões | agregação + agrupamento | `classificacao` (nível de desenvolvimento por IDH) |
-| 3 — Frota | subquery  | `categoria_frota` (acima / bem acima / muito acima) |
-| 4 — Vulnerabilidade | `AND` + `OR` + `NOT` | `nivel_vulnerabilidade` (crítica/alta/moderada) |
+| 1 Densidade | aritmética entre colunas + ordenação | `classificacao` (Alta/Média/Baixa densidade) |
+| 2 Regiões | agregação + agrupamento | `classificacao` (nível de desenvolvimento por IDH) |
+| 3 Frota | subquery  | `categoria_frota` (acima / bem acima / muito acima) |
+| 4 Vulnerabilidade | `AND` + `OR` + `NOT` | `nivel_vulnerabilidade` (crítica/alta/moderada) |
 
 > Os **limiares** de cada regra de negócio estão comentados no topo de cada
 > arquivo `.sql`
