@@ -1,4 +1,4 @@
-# =============================================================================
+-- =============================================================================
 -- Vulnerabilidade social
 -- Requisito tecnico: clausula de restricao COMPLEXA com MULTIPLOS operadores
 --                    logicos -> AND, OR e NOT combinados na mesma condicao.
@@ -13,7 +13,7 @@
 --   renda < 1200  E  idh < 0.700 ... 'Vulnerabilidade critica'
 --   renda < 1500  OU idh < 0.720 ... 'Vulnerabilidade alta'
 --   demais casos                 ... 'Vulnerabilidade moderada'
-# =============================================================================
+-- =============================================================================
 
 SELECT uf AS estado,
        renda_per_capita,

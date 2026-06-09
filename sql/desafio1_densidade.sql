@@ -1,5 +1,4 @@
-#
-=============================================================================
+-- =============================================================================
 -- Densidade demografica por UF
 -- Operacao aritmetica entre colunas (populacao / area) + ORDENACAO
 -- Automacao, o banco gera a coluna "classificacao" via CASE WHEN,
@@ -9,7 +8,7 @@
 --   >= 100 hab/km2 ... 'Alta densidade'   (pressao urbana: transporte, habitacao)
 --   >=  20 hab/km2 ... 'Media densidade'
 --   <   20 hab/km2 ... 'Baixa densidade'  (vazios demograficos / custo logistico)
-# =============================================================================
+-- =============================================================================
 SELECT uf AS estado,
        populacao,
        area_km2,

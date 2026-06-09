@@ -1,4 +1,4 @@
-# =============================================================================
+-- =============================================================================
 -- Frota acima da media nacional
 -- Requisito tecnico: filtragem DINAMICA via SUBQUERY (consulta aninhada no WHERE).
 --                    A linha de corte nao e' fixa: e' recalculada pelo proprio banco.
@@ -9,7 +9,7 @@
 --   >= 2.0x a media ... 'Frota muito acima da media'
 --   >= 1.5x a media ... 'Frota bem acima da media'
 --   <  1.5x a media ... 'Frota acima da media'
-# =============================================================================
+-- =============================================================================
 
 SELECT uf AS estado,
        total_veiculos,

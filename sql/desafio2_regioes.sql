@@ -1,4 +1,4 @@
-# =============================================================================
+-- =============================================================================
 -- Agregacao por grande regiao
 -- Requisito tecnico: funcoes de AGREGACAO (COUNT, AVG) + AGRUPAMENTO por categoria
 -- Automacao: coluna "classificacao" calculada sobre o AVG(idh) do grupo,
@@ -8,7 +8,7 @@
 --   media_idh >= 0.750 ... 'Alto desenvolvimento'
 --   media_idh >= 0.700 ... 'Medio desenvolvimento'
 --   media_idh <  0.700 ... 'Baixo desenvolvimento'
-# =============================================================================
+-- =============================================================================
 
 SELECT regiao,
        COUNT(*)                                 AS qtd_estados,
